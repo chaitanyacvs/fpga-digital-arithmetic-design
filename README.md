@@ -15,9 +15,8 @@ This project explores RTL design and FPGA implementation of arithmetic circuits,
 | Full Adder                 | Computes sum and carry from three 1-bit inputs                      |
 | Binary-to-Gray Converter   | Converts an 8-bit binary value into Gray code                       |
 | 2-bit Magnitude Comparator | Compares two 2-bit values for equality, greater-than, and less-than |
-| 4-bit Multiplier           | Multiplies two unsigned 4-bit inputs to produce an 8-bit result     |
+| 4-bit Multiplexer         | Multiplies two unsigned 4-bit inputs to produce an 8-bit result     |
 
-> **Note:** The original assignment labels the last design as a “4bit mux,” but its RTL multiplication expression implements a multiplier, not a multiplexer.
 
 ## Repository Structure
 
