@@ -106,13 +106,6 @@ The `constraints/` directory contains UCF files with pin assignments and I/O sta
 
 These constraints are board-specific. Confirm the target FPGA part, physical pin mapping, and I/O bank voltage before using them for hardware implementation.
 
-## Future Improvements
-
-- Add or refine self-checking testbenches.
-- Record verified simulation outcomes.
-- Document resource utilization and timing values from genuine tool reports.
-- Compare alternative RTL implementations for area and delay.
-- Validate the complete project on the intended FPGA board.
 
 ## Author
 
