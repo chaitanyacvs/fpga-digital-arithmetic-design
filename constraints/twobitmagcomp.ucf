@@ -1,0 +1,18 @@
+# Transcribed from the 2-bit Magnitude Comparator section (pages 18-19).
+# PlanAhead Generated physical constraints
+NET "a[0]" LOC = A10;
+NET "a[1]" LOC = D14;
+NET "b[0]" LOC = P15;
+NET "b[1]" LOC = C14;
+NET "equal" LOC = U18;
+NET "greater" LOC = M14;
+NET "lower" LOC = N14;
+
+# PlanAhead Generated IO constraints
+NET "a[0]" IOSTANDARD = LVCMOS33;
+NET "a[1]" IOSTANDARD = LVCMOS33;
+NET "b[0]" IOSTANDARD = LVCMOS33;
+NET "b[1]" IOSTANDARD = LVCMOS33;
+NET "equal" IOSTANDARD = LVCMOS18;
+NET "greater" IOSTANDARD = LVCMOS18;
+NET "lower" IOSTANDARD = LVCMOS18;

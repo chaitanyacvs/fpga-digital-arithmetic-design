@@ -1,0 +1,34 @@
+# Transcribed from the Binary-to-Gray section of the supplied assignment (pages 13-14).
+NET "bin[0]" LOC = A10;
+NET "bin[1]" LOC = D14;
+NET "bin[2]" LOC = C14;
+NET "bin[3]" LOC = P15;
+NET "bin[4]" LOC = P12;
+NET "bin[5]" LOC = R5;
+NET "bin[6]" LOC = T5;
+NET "bin[7]" LOC = E4;
+NET "grey[0]" LOC = U18;
+NET "grey[1]" LOC = M14;
+NET "grey[2]" LOC = N14;
+NET "grey[3]" LOC = L14;
+NET "grey[4]" LOC = M13;
+NET "grey[5]" LOC = D4;
+NET "grey[6]" LOC = P16;
+NET "grey[7]" LOC = N12;
+
+NET "bin[0]" IOSTANDARD = LVCMOS33;
+NET "bin[1]" IOSTANDARD = LVCMOS33;
+NET "bin[2]" IOSTANDARD = LVCMOS33;
+NET "bin[3]" IOSTANDARD = LVCMOS33;
+NET "bin[4]" IOSTANDARD = LVCMOS33;
+NET "bin[5]" IOSTANDARD = LVCMOS33;
+NET "bin[6]" IOSTANDARD = LVCMOS33;
+NET "bin[7]" IOSTANDARD = LVCMOS33;
+NET "grey[0]" IOSTANDARD = LVCMOS18;
+NET "grey[1]" IOSTANDARD = LVCMOS18;
+NET "grey[2]" IOSTANDARD = LVCMOS18;
+NET "grey[3]" IOSTANDARD = LVCMOS18;
+NET "grey[4]" IOSTANDARD = LVCMOS18;
+NET "grey[5]" IOSTANDARD = LVCMOS18;
+NET "grey[6]" IOSTANDARD = LVCMOS18;
+NET "grey[7]" IOSTANDARD = LVCMOS18;

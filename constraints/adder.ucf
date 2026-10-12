@@ -1,0 +1,28 @@
+# Transcribed from the Adder section of the supplied assignment (pages 5-6).
+NET "a[0]" LOC = A10;
+NET "a[1]" LOC = D14;
+NET "a[2]" LOC = C14;
+NET "a[3]" LOC = P15;
+NET "b[0]" LOC = P12;
+NET "b[1]" LOC = R5;
+NET "b[2]" LOC = T5;
+NET "b[3]" LOC = E4;
+NET "c[0]" LOC = U18;
+NET "c[1]" LOC = M14;
+NET "c[2]" LOC = N14;
+NET "c[3]" LOC = L14;
+NET "c[4]" LOC = M13;
+
+NET "a[0]" IOSTANDARD = LVCMOS33;
+NET "a[1]" IOSTANDARD = LVCMOS33;
+NET "a[2]" IOSTANDARD = LVCMOS33;
+NET "a[3]" IOSTANDARD = LVCMOS33;
+NET "b[0]" IOSTANDARD = LVCMOS33;
+NET "b[1]" IOSTANDARD = LVCMOS33;
+NET "b[2]" IOSTANDARD = LVCMOS33;
+NET "b[3]" IOSTANDARD = LVCMOS33;
+NET "c[0]" IOSTANDARD = LVCMOS18;
+NET "c[1]" IOSTANDARD = LVCMOS18;
+NET "c[2]" IOSTANDARD = LVCMOS18;
+NET "c[3]" IOSTANDARD = LVCMOS18;
+NET "c[4]" IOSTANDARD = LVCMOS18;
